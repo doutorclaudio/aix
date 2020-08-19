@@ -14,9 +14,9 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'AIX | ',
     'title_prefix' => '',
-    'title_postfix' => '',
+    'title_postfix' => 'Sistemas',
 
     /*
     |--------------------------------------------------------------------------
@@ -30,8 +30,8 @@ return [
     |
     */
 
-    'use_ico_only' => false,
-    'use_full_favicon' => false,
+    'use_ico_only' => true,
+    'use_full_favicon' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -45,12 +45,12 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
-    'logo_img_xl' => null,
+    'logo' => 'A<b>I</b>X',
+    'logo_img' => null,
+    'logo_img_class' => 'brand-image elevation-3',
+    'logo_img_xl' => 'vendor/adminlte/dist/img/logo-aix-sistemas.png',
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'AdminLTE',
+    'logo_img_alt' => 'AIX',
 
     /*
     |--------------------------------------------------------------------------
@@ -242,7 +242,7 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
+            'text'        => 'Alunos',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
